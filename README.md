@@ -12,7 +12,7 @@ This is a simple yet stylish restaurant website built using HTML and CSS. It off
 
 - **Responsive Design:** The website adapts to different screen sizes, making it accessible on desktops, tablets, and smartphones.
   
-<img src="https://github.com/Sbahuddin1/Restaurant-Website/blob/main/gitImages/foodsite%20(3).png" alt="Website Screenshot" width="80%">
+<img src="https://github.com/Sbahuddin1/Restaurant-Website/blob/main/gitImages/foodsite%20(3).png" alt="Website Screenshot" width="30%">
 
 
 
