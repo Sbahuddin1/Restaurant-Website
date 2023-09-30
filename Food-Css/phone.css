@@ -1,0 +1,110 @@
+#services{
+    flex-direction: column;
+}
+#clients{
+    flex-direction: column;
+}
+@media screen and (max-width: 800px) {
+    
+    .afternav{
+        flex-direction: column;
+    }
+    .afternav img{
+        margin: auto;
+        margin-top: 100px;
+        width: 70%;
+    }
+    .afternavText{
+        margin: auto;
+        text-align: center;
+        height: 30%;
+        width:80%;
+        
+    }
+}
+@media screen and (max-width:750px) {
+    #home-video{
+        display: none ;
+    }
+    #home-video2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: black;
+    }
+
+}
+@media screen and (max-width:550px){
+    #navbar ul li:nth-child(1) a {
+        color: firebrick;
+        text-decoration: overline;
+      }
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        display: inline-block;
+
+    }
+    #nav2 select{
+        background-color: ivory;
+        border: none;
+        color: firebrick;
+        text-decoration: overline;
+    }
+.homeText{
+        width: 100%;    
+    }
+    .btnBox{
+        margin: auto;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .home{
+        padding: 20px 10px;
+        
+    }
+}
+#nav2 ul.dropdown li a{
+     text-decoration:none ;
+}
+#nav2 ul{
+    background-color: ivory;
+   
+}
+#nav2 ul li ul.dropdown{
+    display: block;
+}
+
+#nav2 ul li ul.dropdown{
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+ul.dropdown li a:hover{
+background-color: darkred;
+}
+#nav2 ul li:hover ul.dropdown{
+ display: block;
+}
+
+    
+@media screen and (max-width:360px){
+    .logocontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav2 select{
+        font-size: smaller;
+    }
+    .afternavText p{
+        display: none;
+    }
+}

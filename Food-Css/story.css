@@ -1,0 +1,98 @@
+.topbackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image:url(/foodSite/Food-images/topback.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: ivory;
+}
+.topbackground h1{
+font-size: 6rem;
+}
+.topbackground p{
+font-size: 1.5rem;
+margin: 20px 50px;
+}  
+.stories{
+    display: flex;
+    color: darkred;
+}
+.stories img{
+width: 50%;
+}
+.stories div{
+    text-align: justify;
+    padding-top: 5rem;
+    margin: auto;
+    padding: 60px;
+    width: 50%;
+    height: fit-content;
+    flex:auto;
+}
+.stories div h2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.stories div p{
+    font-size: 1.5rem;
+}
+.right{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:1230px) {
+    
+}
+
+@media screen and (max-width: 1000px){
+    .stories img{
+        height: max-content;       
+    }
+    .stories div h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.stories div p{
+    font-size: 15px;    
+}
+@media screen and (max-width:865px) {
+    .stories div{
+        padding: 10px 20px ;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .stories{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stories img{
+        width: 85%;
+    }
+    .stories div{
+        padding: 30px 0px;
+        margin: 20px 0px;
+        width: 85%;
+    }
+    .stories div h2{
+        font-size: 3rem;
+    }
+    .stories div p{
+        font-size: x-large;
+    }
+}
+
+}
+#navbar ul li:nth-child(2) a {
+    color: firebrick;
+    text-decoration: overline;
+  }
+  #navbar ul li:nth-child(1) a {
+    color: black;
+    text-decoration: none;
+  }
+
+

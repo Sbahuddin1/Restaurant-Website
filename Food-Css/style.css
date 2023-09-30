@@ -1,0 +1,302 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Spectral', serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: ivory;
+}
+
+#logo img {
+  margin: 1rem 2.5rem;
+  height: 80px;
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+  margin-top: -1px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: ivory;
+  z-index: +1;
+  padding: .5rem 0rem;
+
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+  padding: 0rem 1.2rem;
+}
+
+#navbar ul li:nth-child(1) a {
+  color: firebrick;
+  text-decoration: overline;
+}
+
+#navbar ul li a{
+  color: black;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: .25s;
+}
+
+#navbar ul li a:hover {
+  color: firebrick;
+}
+#nav2{
+  display: none;
+}
+
+/* NAVBAR : ORDER BUTTON */
+
+.btnBox {
+  margin-left: auto;
+  margin-right: 8rem;
+}
+
+#button {
+  color: firebrick;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: ivory;
+  transition-property: all;
+  transition-duration: .25s;
+}
+
+#button a {
+  text-decoration: none;
+  color: black;
+  transition-property: all;
+  transition-duration: .25s;
+}
+
+#button:hover {
+  border: 1px solid firebrick;
+  cursor: pointer;
+}
+
+#button a:hover {
+  color: firebrick;
+}
+
+body {
+  background-color: ivory;
+
+}
+
+
+/* BODY BEFORE VIDEO */
+
+.afternav {
+  display: flex;
+  height: 80vh;
+  background-color: darkred;
+  align-items: center;
+  justify-content: center;
+}
+
+.afternav img {
+  margin-right: auto;
+  margin-left: 4rem;
+  display: flex;
+  width: 45%;
+}
+
+.afternavText hr {
+  margin: 10px 0px;
+}
+
+.afternavText {
+  width: 26%;
+  color: ivory;
+  margin-right: 4rem;
+  font-size: 1.3rem;
+
+}
+
+
+/* VIDEO */
+
+#home-video {
+  /* margin-top: 20vh; */
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  background-color: black;
+}
+#home-video2{
+  display: none ;
+}
+
+/* BODY AFTER VIDEO */
+
+.home img {
+  height: 250px;
+}
+
+.home {
+  margin-top: -8px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: ivory;
+}
+
+.homeText {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.primary {
+  font-size: 2rem;
+  padding: 5px;
+  color: firebrick;
+  text-align: center;
+
+}
+
+#client-section h1 {
+  background-color: ivory;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.p2 {
+  margin-top: 40px;
+  font-size: 2rem;
+  padding: 5px;
+  color: ivory;
+  text-align: center;
+}
+
+.container {
+  background-color: darkred;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#services {
+  display: flex;
+  /* margin: 35px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  color: firebrick;
+  background-color: ivory;
+  display: block;
+  margin: 40px;
+  padding: 40px;
+  box-shadow: 4px 4px black;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+#client-section {
+  margin-top: 40px;
+}
+
+#client-section::before {
+  content: "";
+  position: fixed;
+  background-image: url(/foodSite/Food-images/cafe.jpg);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  background-size: cover;
+  opacity: .8;
+
+}
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.clientItem img {
+  height: 160px;
+  border-radius: 100px;
+}
+
+.clientItem h2 {
+  margin: 10px;
+}
+
+.clientItem {
+  color: ivory;
+  background-color: darkred;
+  display: block;
+  margin: 40px;
+  padding: 40px;
+  box-shadow: 4px 4px black;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: ivory;
+  margin-top: 100px;
+  padding: 100px;
+  margin-bottom: -50px;
+}
+
+.foot {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.tags {
+  margin-left: auto;
+}
+
+.tags img {
+  height: 35px;
+  transition-property: all;
+  transition-duration: .5s;
+}
+
+.tags img:hover {
+  opacity: .6;
+  border-radius: 40px;
+}
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+}
+
+.lastlogo {
+  height: 90px;
+  margin: 20px;
+}
